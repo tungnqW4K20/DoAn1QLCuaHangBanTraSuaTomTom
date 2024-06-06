@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3f8091fdb2df4d36b685b335ea4909c9" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="QuanLyCuaHangBanTraSuaTomTomModel.ChamCong" Width="1.5" PointX="10.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyCuaHangBanTraSuaTomTomModel.ChiTietHoaDonBan" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyCuaHangBanTraSuaTomTomModel.ChiTietHoaDonNhap" Width="1.5" PointX="8.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyCuaHangBanTraSuaTomTomModel.DanhMucDoUong" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyCuaHangBanTraSuaTomTomModel.DoUong" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyCuaHangBanTraSuaTomTomModel.HoaDonBan" Width="1.5" PointX="3" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyCuaHangBanTraSuaTomTomModel.HoaDonNhap" Width="1.5" PointX="6" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyCuaHangBanTraSuaTomTomModel.KhachHang" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyCuaHangBanTraSuaTomTomModel.NguyenLieu" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyCuaHangBanTraSuaTomTomModel.NhaCungCap" Width="1.5" PointX="3.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyCuaHangBanTraSuaTomTomModel.NhanVien" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyCuaHangBanTraSuaTomTomModel.Order" Width="1.5" PointX="8.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyCuaHangBanTraSuaTomTomModel.PhaChe" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyCuaHangBanTraSuaTomTomModel.sysdiagram" Width="1.5" PointX="8.375" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyCuaHangBanTraSuaTomTomModel.TaiKhoan" Width="1.5" PointX="3" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyCuaHangBanTraSuaTomTomModel.TrangThaiBan" Width="1.5" PointX="6" PointY="8" IsExpanded="true" />
+        <AssociationConnector Association="QuanLyCuaHangBanTraSuaTomTomModel.FK__ChiTietHo__MaDoU__03F0984C" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyCuaHangBanTraSuaTomTomModel.FK__ChiTietHo__MaHoa__02FC7413" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyCuaHangBanTraSuaTomTomModel.FK__ChiTietHo__MaHoa__778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyCuaHangBanTraSuaTomTomModel.FK__ChiTietHo__MaNgu__787EE5A0" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyCuaHangBanTraSuaTomTomModel.FK__DoUong__MaDanhMu__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyCuaHangBanTraSuaTomTomModel.FK__Orders__MaDoUong__2BFE89A6" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyCuaHangBanTraSuaTomTomModel.FK__PhaChe__MaDoUong__160F4887" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyCuaHangBanTraSuaTomTomModel.FK__HoaDonBan__MaKH__00200768" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyCuaHangBanTraSuaTomTomModel.FK__HoaDonBan__MaNV__7F2BE32F" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyCuaHangBanTraSuaTomTomModel.FK__HoaDonNha__MaNha__74AE54BC" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyCuaHangBanTraSuaTomTomModel.FK__HoaDonNhap__MaNV__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyCuaHangBanTraSuaTomTomModel.FK__PhaChe__MaNguyen__17036CC0" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyCuaHangBanTraSuaTomTomModel.FK__TaiKhoan__MaNV__114A936A" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyCuaHangBanTraSuaTomTomModel.FK__Orders__SoBan__2B0A656D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
